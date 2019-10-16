@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView7"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:visibility="invisible"
+        app:cardBackgroundColor="#1E90FF"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6">
 
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardView7"
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="24dp"
-            android:visibility="invisible"
-            app:cardBackgroundColor="#f4bb1b"
-            app:cardCornerRadius="6dp"
-            app:cardElevation="6dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardView6">
+            android:layout_height="match_parent">
 
-            <android.support.constraint.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:maxLength="2"
+                app:layout_constraintBottom_toBottomOf="@+id/editText4"
+                app:layout_constraintStart_toEndOf="@+id/editText4"
+                app:layout_constraintTop_toTopOf="@+id/editText4" />
 
-                <EditText
-                    android:id="@+id/editText5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="2"
-                    android:gravity="center_horizontal"
-                    android:inputType="number"
-                    android:maxLength="2"
-                    app:layout_constraintBottom_toBottomOf="@+id/editText4"
-                    app:layout_constraintStart_toEndOf="@+id/editText4"
-                    app:layout_constraintTop_toTopOf="@+id/editText4" />
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:maxLength="2"
+                app:layout_constraintBottom_toBottomOf="@+id/editText3"
+                app:layout_constraintStart_toEndOf="@+id/editText3"
+                app:layout_constraintTop_toTopOf="@+id/editText3" />
 
-                <EditText
-                    android:id="@+id/editText4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="2"
-                    android:gravity="center_horizontal"
-                    android:inputType="number"
-                    android:maxLength="2"
-                    app:layout_constraintBottom_toBottomOf="@+id/editText3"
-                    app:layout_constraintStart_toEndOf="@+id/editText3"
-                    app:layout_constraintTop_toTopOf="@+id/editText3" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="SET"
+                app:layout_constraintBottom_toBottomOf="@+id/editText5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/editText5"
+                app:layout_constraintTop_toTopOf="@+id/editText5" />
 
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:text="SET"
-                    app:layout_constraintBottom_toBottomOf="@+id/editText5"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/editText5"
-                    app:layout_constraintTop_toTopOf="@+id/editText5" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:maxLength="2"
+                app:layout_constraintBottom_toBottomOf="@+id/editText2"
+                app:layout_constraintStart_toEndOf="@+id/editText2"
+                app:layout_constraintTop_toTopOf="@+id/editText2" />
 
-                <EditText
-                    android:id="@+id/editText3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="2"
-                    android:gravity="center_horizontal"
-                    android:inputType="number"
-                    android:maxLength="2"
-                    app:layout_constraintBottom_toBottomOf="@+id/editText2"
-                    app:layout_constraintStart_toEndOf="@+id/editText2"
-                    app:layout_constraintTop_toTopOf="@+id/editText2" />
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="2"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:maxLength="2"
+                app:layout_constraintBottom_toBottomOf="@+id/editText1"
+                app:layout_constraintStart_toEndOf="@+id/editText1"
+                app:layout_constraintTop_toTopOf="@+id/editText1" />
 
-                <EditText
-                    android:id="@+id/editText2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ems="2"
-                    android:gravity="center_horizontal"
-                    android:inputType="number"
-                    android:maxLength="2"
-                    app:layout_constraintBottom_toBottomOf="@+id/editText1"
-                    app:layout_constraintStart_toEndOf="@+id/editText1"
-                    app:layout_constraintTop_toTopOf="@+id/editText1" />
-
-                <EditText
-                    android:id="@+id/editText1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="24dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:ems="2"
-                    android:gravity="center_horizontal"
-                    android:inputType="number"
-                    android:maxLength="2"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </android.support.constraint.ConstraintLayout>
-        </android.support.v7.widget.CardView>
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="2"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:maxLength="2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:visibility="invisible"
-        app:cardBackgroundColor="#f4bb1b"
+        app:cardBackgroundColor="#1E90FF"
         app:cardCornerRadius="6dp"
         app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +129,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Model A"
+                android:text="智慧模式"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/cardview_light_background"
                 android:thumb="@drawable/switch_custom_thumb_selector"
@@ -144,7 +144,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
-                android:text="Model B"
+                android:text="手動模式"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/cardview_light_background"
                 android:thumb="@drawable/switch_custom_thumb_selector"
@@ -172,7 +172,7 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#f4bb1b">
+            android:background="#1E90FF">
 
             <Switch
                 android:id="@+id/switch2"
@@ -180,7 +180,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:text="風扇開關"
+                android:text="速乾模式"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:textColor="@color/cardview_light_background"
                 android:thumb="@drawable/switch_custom_thumb_selector"
@@ -198,9 +198,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="48dp"
-        app:cardBackgroundColor="#f4bb1b"
+        app:cardBackgroundColor="#1E90FF"
         app:cardCornerRadius="6dp"
         app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -222,7 +222,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="106dp"
                 android:layout_marginBottom="8dp"
-                android:text="電燈開關"
+                android:text="殺菌模式"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:textColor="#FFFFFF"
                 android:thumb="@drawable/switch_custom_thumb_selector"
@@ -240,9 +240,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        app:cardBackgroundColor="#f4bb1b"
+        app:cardBackgroundColor="#1E90FF"
         app:cardCornerRadius="6dp"
         app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -303,9 +303,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        app:cardBackgroundColor="#f4bb1b"
+        app:cardBackgroundColor="#1E90FF"
         app:cardCornerRadius="6dp"
         app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -369,14 +369,14 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        app:cardBackgroundColor="#f4bb1b"
+        app:cardBackgroundColor="#1E90FF"
         app:cardCornerRadius="6dp"
         app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -429,6 +429,18 @@
         </android.support.constraint.ConstraintLayout>
 
     </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="智慧曬衣架"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#1E90FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
 
