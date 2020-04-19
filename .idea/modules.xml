@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GitHub-MQTT_LINK7688_APP.iml" filepath="$PROJECT_DIR$/GitHub-MQTT_LINK7688_APP.iml" group="MQTT_LINK7688_APP" />
       <module fileurl="file://$PROJECT_DIR$/MQTT_LINK7688_APP.iml" filepath="$PROJECT_DIR$/MQTT_LINK7688_APP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/MQTT_LINK7688_APP-app.iml" filepath="$PROJECT_DIR$/app/MQTT_LINK7688_APP-app.iml" group="MQTT_LINK7688_APP/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
